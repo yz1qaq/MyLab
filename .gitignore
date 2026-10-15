@@ -1,0 +1,15 @@
+.DS_Store
+.idea/
+.vscode/
+
+# 本地凭据和运行数据；公共配置示例正常提交。
+.env
+.env.*
+!.env.example
+**/.local/
+**/logs/
+**/bin/
+**/node_modules/
+**/dist/
+*.test
+coverage.out
